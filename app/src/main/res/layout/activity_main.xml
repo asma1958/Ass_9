@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDBCC7"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/editTextText3"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="94dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="First version "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="290dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="86dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+            app:srcCompat="@drawable/second" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="@color/black"
+            android:text="Once there was a hare, he felt very proud because he could run very fast.
+One day, he saw a slow-moving tortoise. The hare laughed at the tortoise and said, “You’re moving very fast. Shall we have a running race?”
+
+The tortoise knew that he could not run fast like the hare. He thought, “Why not have some fun? I am not worried about failure. “So he said, ” I am ready for the race” and accepted the challenge. The forest friends fixed a day for the race.
+
+On the fixed day, the hare and the tortoise arrived at the starting point. They had to run up to a big banyan tree nearly a mile away. It was a long distance for the tortoise. The race started. The tortoise began to move forward slowly. The hare ran at great speed.
+
+After running for some time, the hare stopped to take a rest. The tortoise was far behind. “It will take him a long time to catch me”, thought the hare. He lay down under a shady tree and soon fell asleep. Meanwhile, the tortoise kept moving slowly and steadily. On the way, he saw the hare in deep sleep.
+
+He continued to move and finally reached the winning point.
+
+The hare woke up after some time and began to run fast. But it was too late now. When he reached the endpoint, he saw the tortoise waiting with a smiling face. The hare hung his face in shame."
+           android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="121dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="150dp"
+            android:text="Read"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="@color/black"
+            android:text="After the first race the hare realizes its mistake and challenges the tortoise again. This time the hare doesn't take a nap and wins the race with ease."
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/editTextText2"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="118dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:text="The second version"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="249dp"
+            android:layout_height="233dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+            app:srcCompat="@drawable/hare2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="121dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="150dp"
+            android:text="Read"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/editTextText"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="118dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:text="The third version"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="269dp"
+            android:layout_height="256dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="159dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText"
+            app:srcCompat="@drawable/hare3" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="32dp"
+            android:text="After the second race the tortoise realizes that there's a river in between and this can play to his advantage. Then he goes and challenges the hare again. When they reach the river the tortoise swims through and reaches the finish line but, the hare unable to swim takes a longer route and looses."
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="121dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="462dp"
+            android:text="Read"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            app:layout_constraintVertical_bias="0.018" />
+
+        <TextView
+            android:id="@+id/editfinalText"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="118dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:text="The final version"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="269dp"
+            android:layout_height="256dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="159dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editfinalText"
+            app:srcCompat="@drawable/images" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="@color/black"
+            android:text="the the 3rd race the tortoise and  the hare joined forces and decide to reach the the finish line in less time. This time, the hare carries the tortoise to the river and then the hare carries the hare across the river. Now, they reach the finish line earlier than their individual time."
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="121dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="462dp"
+            android:text="Read"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="380dp"
+            android:layout_height="220dp"
+            android:background="@drawable/first"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.427"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
